@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA2C1A1B2A801A3800261050 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2C1A1A2A801A3800261050 /* ScrumStore.swift */; };
 		DA6778832A704E8900FB7224 /* iScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6778822A704E8900FB7224 /* iScrumdingerApp.swift */; };
 		DA6778852A704E8900FB7224 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6778842A704E8900FB7224 /* MeetingView.swift */; };
 		DA6778872A704E8B00FB7224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA6778862A704E8B00FB7224 /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA2C1A1A2A801A3800261050 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 		DA67787F2A704E8900FB7224 /* iScrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iScrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA6778822A704E8900FB7224 /* iScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iScrumdingerApp.swift; sourceTree = "<group>"; };
 		DA6778842A704E8900FB7224 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				DAAA12022A7AEB7500FE797A /* History.swift */,
 				DAC391152A7997D70010E085 /* ScrumTimer.swift */,
 				DAC391172A7997E60010E085 /* AVPlayer+Ding.swift */,
+				DA2C1A1A2A801A3800261050 /* ScrumStore.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				DAC391162A7997D70010E085 /* ScrumTimer.swift in Sources */,
 				DA6778942A70578800FB7224 /* DailyScrum.swift in Sources */,
 				DAC391182A7997E70010E085 /* AVPlayer+Ding.swift in Sources */,
+				DA2C1A1B2A801A3800261050 /* ScrumStore.swift in Sources */,
 				DAAA11FC2A7AD92700FE797A /* MeetingFooterView.swift in Sources */,
 				DA67789D2A72F0BB00FB7224 /* DetailView.swift in Sources */,
 				DAC391122A7991FD0010E085 /* MeetingHeaderView.swift in Sources */,

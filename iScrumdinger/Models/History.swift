@@ -8,7 +8,7 @@
 import Foundation
 import AVFoundation
 
-struct History: Identifiable {
+struct History: Identifiable, Codable {
     
     let id: UUID
     let date: Date
