@@ -23,6 +23,8 @@
 		DA67789B2A705F6400FB7224 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA67789A2A705F6400FB7224 /* ScrumsView.swift */; };
 		DA67789D2A72F0BB00FB7224 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA67789C2A72F0BB00FB7224 /* DetailView.swift */; };
 		DA67789F2A72FE0100FB7224 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA67789E2A72FE0000FB7224 /* DetailEditView.swift */; };
+		DA6ACA432A82B0C900C10162 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6ACA422A82B0C900C10162 /* SpeechRecognizer.swift */; };
+		DA6ACA452A82B55A00C10162 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6ACA442A82B55A00C10162 /* HistoryView.swift */; };
 		DA807FEA2A74014400683883 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA807FE92A74014400683883 /* ThemeView.swift */; };
 		DA807FEC2A7402E100683883 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA807FEB2A7402E100683883 /* ThemePicker.swift */; };
 		DAAA11FC2A7AD92700FE797A /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAA11FB2A7AD92600FE797A /* MeetingFooterView.swift */; };
@@ -53,6 +55,8 @@
 		DA67789A2A705F6400FB7224 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		DA67789C2A72F0BB00FB7224 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		DA67789E2A72FE0000FB7224 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		DA6ACA422A82B0C900C10162 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		DA6ACA442A82B55A00C10162 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		DA807FE92A74014400683883 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		DA807FEB2A7402E100683883 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 		DAAA11FB2A7AD92600FE797A /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
@@ -89,6 +93,7 @@
 				DAC391132A7996260010E085 /* ScrumProgressViewStyle.swift */,
 				DA67789C2A72F0BB00FB7224 /* DetailView.swift */,
 				DA67789E2A72FE0000FB7224 /* DetailEditView.swift */,
+				DA6ACA442A82B55A00C10162 /* HistoryView.swift */,
 				DA807FE92A74014400683883 /* ThemeView.swift */,
 				DA2C1A1F2A802EF700261050 /* ErrorView.swift */,
 			);
@@ -121,7 +126,6 @@
 				DAAA11FD2A7AE1D900FE797A /* Resources */,
 				DA6778862A704E8B00FB7224 /* Assets.xcassets */,
 				DA6778882A704E8B00FB7224 /* Preview Content */,
-				DA2C1A232A81548300261050 /* SpeakerArc.swift */,
 			);
 			path = iScrumdinger;
 			sourceTree = "<group>";
@@ -144,6 +148,7 @@
 				DAC391172A7997E60010E085 /* AVPlayer+Ding.swift */,
 				DA2C1A1A2A801A3800261050 /* ScrumStore.swift */,
 				DA2C1A1C2A802C5300261050 /* ErrorWrapper.swift */,
+				DA6ACA422A82B0C900C10162 /* SpeechRecognizer.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 		DA6778992A705F3600FB7224 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				DA2C1A232A81548300261050 /* SpeakerArc.swift */,
 				DA6778972A705BED00FB7224 /* TrailingIconLabelStyle.swift */,
 				DA807FEB2A7402E100683883 /* ThemePicker.swift */,
 			);
@@ -243,6 +249,7 @@
 				DA2C1A242A81548300261050 /* SpeakerArc.swift in Sources */,
 				DA2C1A202A802EF700261050 /* ErrorView.swift in Sources */,
 				DA6778942A70578800FB7224 /* DailyScrum.swift in Sources */,
+				DA6ACA452A82B55A00C10162 /* HistoryView.swift in Sources */,
 				DA2C1A222A814FFD00261050 /* MeetingTimerView.swift in Sources */,
 				DAC391182A7997E70010E085 /* AVPlayer+Ding.swift in Sources */,
 				DA2C1A1B2A801A3800261050 /* ScrumStore.swift in Sources */,
@@ -253,6 +260,7 @@
 				DAAA12012A7AE3E800FE797A /* NewScrumSheet.swift in Sources */,
 				DA67789F2A72FE0100FB7224 /* DetailEditView.swift in Sources */,
 				DA6778982A705BED00FB7224 /* TrailingIconLabelStyle.swift in Sources */,
+				DA6ACA432A82B0C900C10162 /* SpeechRecognizer.swift in Sources */,
 				DA6778922A70560C00FB7224 /* Theme.swift in Sources */,
 				DA67789B2A705F6400FB7224 /* ScrumsView.swift in Sources */,
 				DA6778852A704E8900FB7224 /* MeetingView.swift in Sources */,
@@ -390,11 +398,13 @@
 				DEVELOPMENT_TEAM = 9M963S5SV4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription of your meeting in the app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -402,9 +412,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Nikita-Chekan.iScrumdinger";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -419,11 +432,13 @@
 				DEVELOPMENT_TEAM = 9M963S5SV4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription of your meeting in the app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -431,9 +446,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Nikita-Chekan.iScrumdinger";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
